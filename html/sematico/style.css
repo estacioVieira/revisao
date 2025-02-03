@@ -1,0 +1,30 @@
+/* css externo */
+
+/* seletor tag */
+header{
+    display: flex;
+    padding: 0 80px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* seletor .class */
+.lista{
+    display: flex;
+    gap: 20px;
+}
+/* seletor id */
+/* #inicio{
+    font-size: 24px;
+} */
+
+/* seletor descendência */
+.lista li{
+    list-style: none;
+}
+
+/* seletor atributo
+li[data-item]{
+    font-size: 24px;
+} */
